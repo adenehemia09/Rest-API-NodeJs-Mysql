@@ -1,0 +1,27 @@
+{
+  "name": "api_database_sekolah",
+  "version": "1.0.0",
+  "description": "Membuat Api Database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adenehemia09/user_login_nodejs.git"
+  },
+  "author": "adenehemia09",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adenehemia09/user_login_nodejs/issues"
+  },
+  "homepage": "https://github.com/adenehemia09/user_login_nodejs#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.20"
+  }
+}
